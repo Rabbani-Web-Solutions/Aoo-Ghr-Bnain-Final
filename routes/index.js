@@ -40,7 +40,7 @@ app.use(bodyParser.json());
 
 app.use(
     cors({
-      origin: 'http://localhost:3009',
+      origin: 'https://aoo-ghr-bnain-client.herokuapp.com/',
       credentials: true,
     })
 );
