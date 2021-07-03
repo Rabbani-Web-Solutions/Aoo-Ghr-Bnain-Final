@@ -40,7 +40,7 @@ app.use(bodyParser.json());
 
 app.use(
     cors({
-      origin: 'https://aoo-ghr-bnain-client.vercel.app/',
+      origin: 'https://aoo-ghr-bnain-client.vercel.app',
       credentials: true,
     })
 );
