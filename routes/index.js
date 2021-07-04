@@ -18,6 +18,7 @@ const register  = require('./register')
 const scrap = require('./webScrapping');
 const scrapSteel = require('./scrapSteel');
 const save = require('./save')
+const update = require('./update')
 const change = require('./change')
 const updatePass = require('./updatePass')
 const getSketch = require('./getSketch')
@@ -109,6 +110,13 @@ function(request, response) {
 app.post('/save', function(request, response) {
    
   save(request, response);
+
+}
+);
+
+app.post('/update', function(request, response) {
+   
+  update(request, response);
 
 }
 );
