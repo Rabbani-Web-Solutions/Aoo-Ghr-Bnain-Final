@@ -24,7 +24,6 @@ connection.query('UPDATE sketch SET sketch = ? ,width = ?, height = ?,layer = ?,
                         return response.status(200).send("Sketch Updated Successfully");
             });
 
-
 }
 
 module.exports = update;
